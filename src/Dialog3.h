@@ -1,4 +1,5 @@
 #pragma once
+#include "afxwin.h"
 
 
 // CDialog3 对话框
@@ -20,4 +21,8 @@ protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV 支持
 
 	DECLARE_MESSAGE_MAP()
+public:
+	afx_msg void OnBnClickedButton1();
+	CEdit m_hEdit;
+	afx_msg void OnBnClickedButton2();
 };

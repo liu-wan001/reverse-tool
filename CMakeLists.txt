@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 project(reverse_tool)
 
 set(CMAKE_MFC_FLAG 1)  
-add_definitions(-DUNICODE -D_UNICODE)
+add_definitions(-DUNICODE -D_UNICODE -D_CRT_SECURE_NO_WARNINGS)
 add_definitions(-D_AFXDLL)
 
 set(CMAKE_archive_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)

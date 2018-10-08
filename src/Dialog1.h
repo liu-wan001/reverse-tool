@@ -29,4 +29,16 @@ public:
 	CEdit m_hEdit1;
 	CEdit m_hEdit2;
 	CEdit m_hEdit3;
+	afx_msg void OnEnChangeEdit4();
+	CEdit m_hEdit4;
+	CEdit m_hEdit5;
+	CEdit m_hEdit6;
+	afx_msg void OnEnChangeEdit7();
+	CEdit m_hEdit7;
+	CEdit m_hEdit8;
+	CEdit m_hEdit9;
+	CEdit m_hEdit10;
+	CEdit m_hEdit11;
+	CEdit m_hEdit12;
+	afx_msg void OnEnChangeEdit10();
 };
